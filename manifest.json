@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "RAVi",
+    "version": "1.0",
+    "description": "Real-time Annotation for Video Chat via Collaborative Tagging",
+   
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    },
+    
+    "content_scripts":   [
+      {
+        "matches":   [
+                        "https://hangouts.google.com/call/*",
+                        "http://hangouts.google.com/call/*",
+                        "https://VideoMagic.github.io/*",
+                        "http://VideoMagic.github.io/*"
+                     ],
+        "js":        [ 
+                        "content.js" 
+                     ],
+        "run_at":    "document_idle"
+      }
+    ],
+
+    "permissions": [
+      "activeTab", 
+      "https://hangouts.google.com/call/*",
+      "http://hangouts.google.com/call/*",
+      "https://VideoMagic.github.io/*",
+      "http://VideoMagic.github.io/*"
+    ]
+  }
