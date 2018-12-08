@@ -1,5 +1,7 @@
 ### 익스텐션 사용법
 
+0. **이 레포지토리 다운받으세요**
+   - 터미널에서 `git clone https://github.com/jyoonsong/RAVi.git` 혹은 우측 상단 Download 
 1. **크롬익스텐션 설치**
    - RAVi (chrome://extensions/ 에서 Load Unpacked 후 폴더 선택)
    - Screencastify (https://chrome.google.com/webstore/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn?hl=en)
