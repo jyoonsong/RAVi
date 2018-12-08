@@ -23,6 +23,7 @@ chrome.browserAction.onClicked.addListener(function(t) {
             if (confirm('회의를 종료하셨으면 [확인], 단순 새로고침하신 거면 [취소]를 눌러주세요')) {
                 // Save json
                 chrome.tabs.sendMessage(t.id, {msg: "save"});
+                isRecording = false;
             }
             else {
                 // Restart it
