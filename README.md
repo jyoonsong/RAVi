@@ -6,7 +6,8 @@
    - RAVi (chrome://extensions/ 에서 Load Unpacked 후 폴더 선택)
    - Screencastify (https://chrome.google.com/webstore/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn?hl=en)
    - https://videomagic.github.io/ 에 가서 Connect 하기
-2. **행아웃 "Join the Chat"을 먼저 클릭**
+2. **행아웃 채팅창을 켜기**
+   - 새 창 말고 탭에서 열리도록, 되도록 링크를 복붙해서 들어갈 것
    - 마이크와 캠 접근 권한 허용 후, 잘 작동하는지 확인 (이어폰 미착용 권장)
    - 인터넷 확인 (새로고침 해도 날라가진 않게 해놓았으나, 혹시 모르니 최대한 하지 말기)
 3. **준비 완료되었으면, 익스텐션 아이콘을 클릭**
